@@ -7,11 +7,13 @@ I have run quite a few of the [algorithms](https://docs.aws.amazon.com/sagemaker
 
 ## Available Exercises
 
-| Algorithm | Description | Notebook |
-|-----------|-------------|----------|
-| **XGBoost** | Gradient boosting for classification and regression | `notebooks/xgboost/` |
-| **Linear Learner** | Linear models for classification and regression | `notebooks/linear_learner/` |
-| **DeepAR** | Probabilistic time series forecasting with RNNs | `notebooks/deep_ar/` |
+| Algorithm | Description | Notebook | URL |
+|-----------|-------------|----------|-----|
+| **XGBoost** | Gradient boosting for classification and regression | `notebooks/xgboost/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html)|
+| **LightGBM** | Fast gradient boosting with leaf-wise tree growth | `notebooks/light_gbm/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/lightgbm.html)|
+| **Linear Learner** | Linear models for classification and regression | `notebooks/linear_learner/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)|
+| **DeepAR** | Probabilistic time series forecasting with RNNs | `notebooks/deep_ar/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)|
+| **Seq2Seq** | Sequence-to-sequence for translation and summarization | `notebooks/04_seq_to_seq/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/seq-2-seq.html)|
 
 ## Environment Setup
 
@@ -107,8 +109,10 @@ The script shows daily spend with a visual breakdown by usage type (training, en
 ```
 notebooks/
 ├── xgboost/           # XGBoost exercises
+├── light_gbm/         # LightGBM exercises
 ├── linear_learner/    # Linear Learner exercises
-└── deep_ar/           # DeepAR time series exercises
+├── deep_ar/           # DeepAR time series exercises
+└── 04_seq_to_seq/     # Seq2Seq translation exercises
 common/                # Shared utilities
 generators/            # Synthetic data generation
 ```
