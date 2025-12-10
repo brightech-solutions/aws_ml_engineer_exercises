@@ -9,11 +9,24 @@ I have run quite a few of the [algorithms](https://docs.aws.amazon.com/sagemaker
 
 | Algorithm | Description | Notebook | URL |
 |-----------|-------------|----------|-----|
-| **XGBoost** | Gradient boosting for classification and regression | `notebooks/xgboost/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html)|
-| **LightGBM** | Fast gradient boosting with leaf-wise tree growth | `notebooks/light_gbm/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/lightgbm.html)|
-| **Linear Learner** | Linear models for classification and regression | `notebooks/linear_learner/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)|
-| **DeepAR** | Probabilistic time series forecasting with RNNs | `notebooks/deep_ar/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)|
+| **Linear Learner** | Linear models for classification and regression | `notebooks/01_linear_learner/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)|
+| **XGBoost** | Gradient boosting for classification and regression | `notebooks/02_xgboost/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html)|
+| **LightGBM** | Fast gradient boosting with leaf-wise tree growth | `notebooks/03_light_gbm/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/lightgbm.html)|
 | **Seq2Seq** | Sequence-to-sequence for translation and summarization | `notebooks/04_seq_to_seq/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/seq-2-seq.html)|
+| **DeepAR** | Probabilistic time series forecasting with RNNs | `notebooks/05_deep_ar/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)|
+| **BlazingText** | Word2Vec embeddings and fast text classification | `notebooks/06_blazing_text/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/blazingtext.html)|
+| **Object2Vec** | General-purpose neural embeddings for pairs | `notebooks/07_object_2_vec/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/object2vec.html)|
+| **Object Detection** | Detect and localize objects in images | `notebooks/08_object_detection/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/object-detection.html)|
+| **Image Classification** | Classify images into categories | `notebooks/09_image_classification/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/image-classification.html)|
+| **Semantic Segmentation** | Pixel-level image classification | `notebooks/10_semantic_segmentation/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/semantic-segmentation.html)|
+| **Random Cut Forest** | Unsupervised anomaly detection | `notebooks/11_random_cut_forrest/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/randomcutforest.html)|
+| **Neural Topic Model** | Neural network-based topic modeling | `notebooks/12_neural_topic_model/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/ntm.html)|
+| **LDA** | Latent Dirichlet Allocation topic modeling | `notebooks/13_latent_dirichlet_allocation/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/lda.html)|
+| **K-Nearest Neighbors** | Index-based classification and regression | `notebooks/14_knn/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/k-nearest-neighbors.html)|
+| **K-Means** | Unsupervised clustering | `notebooks/15_k_means_clustering/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/k-means.html)|
+| **PCA** | Principal Component Analysis dimensionality reduction | `notebooks/16_principal_component_analysis/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/pca.html)|
+| **Factorization Machines** | Sparse feature interactions for recommendations | `notebooks/17_factorization_machines/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/fact-machines.html)|
+| **IP Insights** | Detect anomalous IP address usage patterns | `notebooks/18_ip_insights/` | [AWS URL](https://docs.aws.amazon.com/sagemaker/latest/dg/ip-insights.html)|
 
 ## Environment Setup
 
@@ -112,7 +125,8 @@ notebooks/
 ├── light_gbm/         # LightGBM exercises
 ├── linear_learner/    # Linear Learner exercises
 ├── deep_ar/           # DeepAR time series exercises
-└── 04_seq_to_seq/     # Seq2Seq translation exercises
+├── 04_seq_to_seq/     # Seq2Seq translation exercises
+└── 06_blazing_text/   # BlazingText Word2Vec and classification
 common/                # Shared utilities
 generators/            # Synthetic data generation
 ```
