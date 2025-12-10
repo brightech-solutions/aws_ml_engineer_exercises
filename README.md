@@ -2,7 +2,7 @@
 
 A collection of hands-on exercises covering AWS SageMaker's built-in machine learning algorithms. Each notebook walks through data preparation, model training, deployment, and inference using SageMaker.
 
-I have run quite a few of the algorithms available in Sagemaker, but definitely not all of them. I wanted to have a set of exercises for each of the major algorithms, especially for those that I have never used before. I will add to the collection of notebooks as I go through each algorightm. I hope that you will find this collection useful. If you see something that could be improved, please feel free to submit a PR.
+I have run quite a few of the [algorithms](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html) available in Sagemaker, but definitely not all of them. I wanted to have a set of exercises for each of the major algorithms, especially for those that I have never used before. I will add to the collection of notebooks as I go through each algorightm. I hope that you will find this collection useful. If you see something that could be improved, please feel free to submit a PR.
 
 
 ## Available Exercises
@@ -65,6 +65,18 @@ SAGEMAKER_ROLE_ARN=arn:aws:iam::123456789012:role/YourSageMakerRole
 ```
 
 The notebooks will automatically load these environment variables.
+
+### S3 Bucket
+
+The notebooks use SageMaker's default bucket for storing training data and model artifacts. When you call `sagemaker_session.default_bucket()`, SageMaker automatically creates a bucket named:
+
+```
+sagemaker-{region}-{account_id}
+```
+
+For example: `sagemaker-us-west-2-123456789012`
+
+This bucket is created in your AWS account the first time you run a notebook. No manual setup required.
 
 ### 4. Run Notebooks
 

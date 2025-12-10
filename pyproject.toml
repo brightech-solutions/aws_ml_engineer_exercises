@@ -20,6 +20,7 @@ dependencies = [
     "sagemaker>=2.200",
     "shap>=0.44",
     "python-dotenv>=1.0",
+    "ruff>=0.14.8",
 ]
 
 [tool.uv]
